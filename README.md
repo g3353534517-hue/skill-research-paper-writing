@@ -1,55 +1,35 @@
-# ML/AI 论文写作流水线 / ML/AI Research Paper Writing Pipeline
+# ML/AI Research Paper Writing Pipeline / ML/AI 论文写作流水线
 
 ![版本](https://img.shields.io/badge/版本-1.1.0-blue) ![分类](https://img.shields.io/badge/分类-研究-green) ![平台](https://img.shields.io/badge/平台-linux-lightgrey) ![平台](https://img.shields.io/badge/平台-macos-lightgrey)
 
-## 简介 / Overview
+## 项目简介
 
-End-to-end pipeline for writing ML/AI research papers — from experiment design through analysis, drafting, revision, and submission. Covers NeurIPS, ICML, ICLR, ACL, AAAI, COLM. Integrates automated experiment monitoring, statistical analysis, iterative writing, and citation verification.
+ML/AI 研究论文的端到端写作流水线——从实验设计到分析、起草、修订和投稿。覆盖 NeurIPS、ICML、ICLR、ACL、AAAI、COLM 等会议。集成自动实验监控、统计分析、迭代写作和引用验证。
 
-## 详细说明 / Details
-
-End-to-end pipeline for producing publication-ready ML/AI research papers targeting **NeurIPS, ICML, ICLR, ACL, AAAI, and COLM**. This skill covers the full research lifecycle: experiment design, execution, monitoring, analysis, paper writing, review, revision, and submission.
-
-This is **not a linear pipeline** — it is an iterative loop. Results trigger new experiments. Reviews trigger new analysis. The agent must handle these feedback loops.
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    RESEARCH PAPER PIPELINE                  │
-│                                                             │
-│  Phase 0: Project Setup ──► Phase 1: Literature Review      │
-│       │                          │                          │
-│       ▼                   ...
-
-## 功能特性 / Features
+## 功能特性
 
 - Research Paper Writing Pipeline
 - When To Use This Skill
 - Core Philosophy
+- Proactivity and Collaboration
 - Phase 0: Project Setup
+- Step 0.1: Explore the Repository
 - Understand project structure
+- Step 0.2: Organize the Workspace
+- Step 0.3: Set Up Version Control
+- Step 0.4: Identify the Contribution
+- Step 0.5: Create a TODO List
+- Step 0.6: Estimate Compute Budget
 - Simple cost tracker pattern
+- Step 0.7: Multi-Author Coordination
 - Phase 1: Literature Review
-- Via terminal:
-- Via web_search:
-- Via web_extract (for specific papers):
 
-## 环境要求 / Prerequisites
+## 环境要求
 
-- 平台：linux, macos
-- 依赖：semanticscholar, arxiv, habanero, requests, scipy, numpy, matplotlib, SciencePlots
+- 运行平台：linux, macos
+- 依赖项：semanticscholar, arxiv, habanero, requests, scipy, numpy, matplotlib, SciencePlots
 
-## 使用示例 / Usage Examples
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    RESEARCH PAPER PIPELINE                  │
-│                                                             │
-│  Phase 0: Project Setup ──► Phase 1: Literature Review      │
-│       │                          │                          │
-│       ▼                          ▼                          │
-│  Phase 2: Expe
-...
-```
+## 使用示例
 
 ```bash
 # Understand project structure
@@ -68,7 +48,7 @@ workspace/
   human_eval/          # Human evaluation materials (if needed)
 ```
 
-## 文件结构 / File Structure
+## 文件结构
 
 ```
 SKILL.md
@@ -128,21 +108,14 @@ templates/neurips2025/main.tex
 templates/neurips2025/neurips.sty
 ```
 
-## 相关技能 / Related Skills
-
-- [skill-arxiv](https://github.com/g3353534517-hue/skill-arxiv)
-- [skill-ml-paper-writing](https://github.com/g3353534517-hue/skill-ml-paper-writing)
-- [skill-subagent-driven-development](https://github.com/g3353534517-hue/skill-subagent-driven-development)
-- [skill-plan](https://github.com/g3353534517-hue/skill-plan)
-
-## 作者 / Author
+## 作者
 
 Orchestra Research
 
-## 许可证 / License
+## 许可证
 
 MIT License
 
 ---
 
-更多技能请访问：[github.com/g3353534517-hue?tab=repositories](https://github.com/g3353534517-hue?tab=repositories)
+更多项目请访问：[github.com/g3353534517-hue?tab=repositories](https://github.com/g3353534517-hue?tab=repositories)
